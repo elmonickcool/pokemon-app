@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+@layer utilities {
+  .nav-link {
+    @apply inline-block px-4 py-2 text-white font-medium hover:text-gray-300;
+  }
+}
